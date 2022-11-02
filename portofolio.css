@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(wok2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: royalblue;
+    overflow: hidden;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    padding: 20px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Contrail One', cursive;
+}
+
+nav ul li a:hover{
+    color: lightgray;
+
+}
+
+nav ul li a span{
+    color: lightgray;
+}
+
+nav ul li a span:hover{
+    cursor: not-allowed;
+}
+
+.card img{
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: lightgray;
+    width: 300px;
+    min-height: 150px;
+    margin: 70px auto; 
+    padding: 30px 30px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.card:hover{
+    scale: 1.05;
+    transition: 1s;
+}
+
+.content-card {
+    padding-top: 100px;
+    padding-left: 180px;
+    margin: 10px 10px;
+}
+
+.card h2{
+    font-family: 'Contrail One', cursive;
+    margin-bottom: 10px;
+    color: royalblue;
+}
+
+.card p{
+    font-family: 'Contrail One', cursive;
+    color: white;
+}
+
+.content-card h1{
+    font-family: 'Contrail One', cursive;
+    color: royalblue;
+    margin-left: 350px;
+
+    
+}

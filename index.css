@@ -1,0 +1,249 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    display: flex;
+    position: relative;
+}
+
+.toggle{
+    background-color: royalblue;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+}
+
+.mirio{
+    border-radius: 100%;
+    margin: 0px auto;
+    display: block;
+    width: 150px;
+    margin-top: 50px;
+    border: 5px solid white;
+}
+
+.nama{
+    text-align: center;
+    color: white;
+    margin-top: 20px ;
+    font-family: 'Contrail One', cursive;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.toggle li {
+    padding-top: 25px;
+    font-size: 17px;
+    margin: 20px 20px;
+    border-bottom: 0.8px solid white;
+    list-style: none;
+    text-align: center;
+}
+
+.toggle li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Contrail One', cursive;
+}
+
+.toggle li a:hover {
+    color: lightgray;
+
+}
+
+.wikrama{
+    width: 55px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 90%;
+
+}
+
+.toggle ul li span{
+    color: lightgray; 
+ 
+}
+
+.toggle ul li span:hover{
+   cursor: not-allowed;
+}
+
+.isinya{
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.isinya{
+    text-align: center;
+}
+
+.isinya h1{
+    font-family: 'Contrail One', cursive;
+    color: royalblue;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.isinya p{
+    font-family: 'Contrail One', cursive;
+    background-color: royalblue;
+    color: white;
+    display: inline;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.gambarnya{
+    margin-left: 465px;
+    margin-top: 200px;
+}
+
+.gambarnya img{
+    width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 360px) {
+    
+    *, html, body{
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .sidebar{
+        display: inline-block;
+        position: relative;
+    }
+    
+    .toggle{
+        background-color: red;
+        position: fixed;
+        width: 200px;
+        height: 100%;
+    }
+    
+    .mirio{
+        border-radius: 100%;
+        margin: 0px auto;
+        display: block;
+        width: 150px;
+        margin-top: 50px;
+        border: 5px solid white;
+    }
+    
+    .nama{
+        text-align: center;
+        color: white;
+        margin-top: 20px ;
+        font-family: 'Contrail One', cursive;
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
+    
+    .toggle li {
+        padding-top: 25px;
+        font-size: 17px;
+        margin: 20px 20px;
+        border-bottom: 0.8px solid white;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .toggle li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Contrail One', cursive;
+    }
+    
+    .toggle li a:hover {
+        color: lightgray;
+    
+    }
+    
+    .wikrama{
+        width: 55px;
+        display: block;
+        margin: 0px auto;
+        margin-top: 90%;
+    
+    }
+    
+    .toggle ul li span{
+        color: lightgray; 
+     
+    }
+    
+    .toggle ul li span:hover{
+       cursor: not-allowed;
+    }
+    
+    .isinya{
+        margin-left: 200px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .isinya{
+        text-align: center;
+    }
+    
+    .isinya h1{
+        font-family: 'Contrail One', cursive;
+        color: royalblue;
+        font-size: 50px;
+    }
+    
+    .isinya p{
+        font-family: 'Contrail One', cursive;
+        background-color: royalblue;
+        color: white;
+        display: inline-block;
+        margin: 15px 20px;
+    }
+    
+    .gambarnya{
+        margin-left: 465px;
+        margin-top: 200px;
+    }
+    
+    .gambarnya img{
+        width: 700px;
+    }
+}
